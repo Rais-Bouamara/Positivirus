@@ -1,5 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+header{
+    padding: 10px 64px;
+}
+body{
+    font-family: Space Grotesk;
+}
+/*classe fonctionnel flexbox*/
+/*rendre flexible un parent c rendre flexible ses enfant*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+.container-1000{
+     max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*classes de dimenssions*/
+
+.w-100{
+    width: 100%;
+}
+
+.w-48{
+    width: 48%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.w-16{
+    width: 16%;
+}
+
+/*carte et boutton*/
+.card-gris{
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #F3F3F3;
+    
+}
+.card-vert{
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #B9FF66;
+    
+}
+.card-black{
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #191A23;
+    
+}
+.button{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: white;
+    padding: 15px 15px;
+    display: inline-block;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttonvert{
+    background-color: #B9FF66(0, 0, 0);
+    border-radius: 5px;
+    color: white;
+    padding: 15px 15px;
+    display: inline-block;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/*classe de mise en page*/
+.no-lien{
+    text-decoration: none;
+}
+.suppuce{
+    list-style-type: none;
+}
+
+/*classe d'espace*/
+.mgt50{
+    margin-top: 50px;
+}
+.mgt100{
+    margin-top: 100px;
+}
+.gap40{
+    gap: 40px;
+}
+
+/*classes de couleurs*/
+.bg-vert{
+    background-color: #B9FF66;
+    padding: 5px;
+    border-radius: 10px;
+}
+.bg-blanc{
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 10px;
+}
+

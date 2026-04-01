@@ -10,11 +10,11 @@
 
 <body>
     <!-- header avec nav-bar -->
-    <header>
-        <div>
+    <header class="flex container1000 space-between">
+        <div class="no-lien">
             <img src="asset/logo.png" alt="logo du site">
         </div>
-        <nav>
+        <nav class="space-between">
             <a href="">About us</a>
             <a href="">Services</a>
             <a href="">Use Cases</a>
@@ -23,71 +23,82 @@
         </nav>
         <a href="">request a quote</a>
     </header>
-    <main>
+    <main class="container1000">
         <!-- section hero presentation du site -->
-        <section>
-            <div>
-                <h1>Navigating the digital landscape for success</h1>
-                <p>Our digital marketing agency helps businesses <br> grow and succeed online through a range of <br>services including SEO, PPC, social media marketing,<br> and content creation.</p>
-                <a href="">Book a consultation</a>
+        <section class="flex space-between mgt50 container1000">
+            <div class="w-50">
+                <h1 class="mgt50">Navigating the digital landscape for success</h1>
+                <p class="mgt50">Our digital marketing agency helps businesses <br> grow and succeed online through a
+                    range of <br>services including SEO, PPC, social media marketing,<br> and content creation.</p>
+                <a href="" class="mgt50 button">Book a consultation</a>
             </div>
-            <div>
+            <div class="w-50">
                 <img src="asset/heroIllustration.png" alt="illustration du hero">
             </div>
         </section>
         <!-- section marque et logo -->
-        <section>
-            <div>
-                <a href="asset/amazon.png"></a>
-                <a href="asset/dribbble.png"></a>
-                <a href="asset/hubspot.png"></a>
-                <a href="asset/notion.png"></a>
-                <a href="asset/netflix.png"></a>
-                <a href="asset/zoom.png"></a>
+        <section class="mgt50 ">
+            <div class="space-between align-center flex">
+                <img src="asset/amazon.png" alt="logo d'Amazon">
+                <img src="asset/dribbble.png" alt="logo de Dribble">
+                <img src="asset/hubspot.png" alt="logo de Hubspot">
+                <img src="asset/notion.png" alt="logo de Notion">
+                <img src="asset/netflix.png" alt="logo de Netflix">
+                <img src="asset/zoom.png" alt="logo de Zoom">
             </div>
         </section>
         <!-- section service + carte-->
-        <section>
-            <div>
-                <h2>service</h2>
-                <p>At our digital marketing agency, we offer a range of services to <br>help businesses grow and succeed online. These services include:</p>
+        <section class="mgt50">
+            <div class="flex gap40">
+                <h2 class="bg-vert">service</h2>
+                <p>At our digital marketing agency, we offer a range of services to <br>help businesses grow and succeed
+                    online. These services include:</p>
             </div>
-            <div>
-                <h2>Search engine <br>optimization</h2>
-                <a href="">Learn more</a>
-                <img src="asset/search_engine.png" alt="">
+            <div class="flex space-between mgt50">
+                <div class="w-48 card-gris">
+                    <h2 class="bg-vert">Search engine <br>optimization</h2>
+                    <a href="">Learn more</a>
+                    <img src="asset/search_engine.png" alt="">
+                </div>
+                <div class="w-48 card-vert">
+                    <h2 class="bg-blanc">Pay-per-click <br>advertising</h2>
+                    <a href="">Learn more</a>
+                    <img src="asset/pay_per_clock.png" alt="">
+                </div>
             </div>
-            <div>
-                <h2>Social Media <br>Marketing</h2>
-                <a href="">Learn more</a>
-                <img src="asset/social_media.png" alt="">
+            <div class="flex space-between mgt50">
+                <div class="w-48 card-black">
+                    <h2 class="bg-blanc">Social Media <br>Marketing</h2>
+                    <a href="">Learn more</a>
+                    <img src="asset/social_media.png" alt="">
+                </div>
+                <div class="w-48 card-gris">
+                    <h2 class="bg-vert">Email <br>Marketing</h2>
+                    <a href="">Learn more</a>
+                    <img src="asset/email_marketng.png" alt="">
+                </div>
             </div>
-            <div>
-                <h2>Content <br>Creation</h2>
-                <a href="">Learn more</a>
-                <img src="asset/content_creation.png" alt="">
+            <div class="flex space-between mgt50">
+                <div class="w-48 card-vert">
+                    <h2 class="bg-blanc">Content <br>Creation</h2>
+                    <a href="">Learn more</a>
+                    <img src="asset/content_creation.png" alt="">
+                </div>
+                <div class="w-48 card-black">
+                    <h2 class="bg-vert">Analytics and <br>Tracking</h2>
+                    <a href="">Learn more</a>
+                    <img src="asset/tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.png" alt="">
+                </div>
             </div>
-            <div>
-                <h2>Pay-per-click <br>advertising</h2>
-                <a href="">Learn more</a>
-                <img src="asset/pay_per_clock.png" alt="">
-            </div>
-            <div>
-                <h2>Email <br>Marketing</h2>
-                <a href="">Learn more</a>
-                <img src="asset/email_marketng.png" alt="">
-            </div>
-            <div>
-                <h2>Analytics and <br>Tracking</h2>
-                <a href="">Learn more</a>
-                <img src="asset/tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.png" alt="">
-            </div>
+
+
         </section>
         <!-- section "Let’s make things happen" -->
         <section>
             <div>
                 <h2>Let’s make things happen</h2>
-                <p>Contact us today to learn more about how our digital <br>marketing services can help your business grow and <br>succeed online.</p>
+                <p>Contact us today to learn more about how our digital <br>marketing services can help your business
+                    grow and <br>succeed online.</p>
                 <a href="">Get your free proposal</a>
                 <img src="asset/make_things_happens.png" alt="">
             </div>
@@ -100,19 +111,24 @@
             </div>
             <div>
                 <div>
-                    <p>For a local restaurant, we <br>implemented a targeted PPC <br>campaign that resulted in a 50% <br>increase in website traffic and a <br>25% increase in sales.</p>
+                    <p>For a local restaurant, we <br>implemented a targeted PPC <br>campaign that resulted in a 50%
+                        <br>increase in website traffic and a <br>25% increase in sales.
+                    </p>
                     <a href="">Learn more</a>
                 </div>
                 <!-- div vide pour le trait de separation -->
                 <div></div>
                 <div>
-                    <p>For a B2B software company, we <br>developed an SEO strategy that <br>resulted in a first page ranking <br>for key keywords and a 200% <br>increase in organic traffic.</p>
+                    <p>For a B2B software company, we <br>developed an SEO strategy that <br>resulted in a first page
+                        ranking <br>for key keywords and a 200% <br>increase in organic traffic.</p>
                     <a href="">Learn more</a>
                 </div>
                 <!-- div vide de separation aussi -->
                 <div></div>
                 <div>
-                    <p>For a national retail chain, we <br>created a social media <br>marketing campaign that <br>increased followers by 25% and <br>generated a 20% increase in <br>online sales.</p>
+                    <p>For a national retail chain, we <br>created a social media <br>marketing campaign that
+                        <br>increased followers by 25% and <br>generated a 20% increase in <br>online sales.
+                    </p>
                     <a href="">Learn more</a>
                 </div>
             </div>
@@ -136,7 +152,9 @@
                 <h3>Emily Johnson</h3>
                 <p>PPC Manager</p>
                 <hr>
-                <p>3+ years of experience in paid <br>search advertising. Skilled in <br>campaign management and <br>performance analysis</p>
+                <p>3+ years of experience in paid <br>search advertising. Skilled in <br>campaign management and
+                    <br>performance analysis
+                </p>
                 <a href=""></a>
             </div>
             <div>
@@ -144,7 +162,9 @@
                 <h3>Jane Doe</h3>
                 <p>Director of Operations</p>
                 <hr>
-                <p>7+ years of experience in project <br>management and team leadership. <br>Strong organizational and <br>communication skills</p>
+                <p>7+ years of experience in project <br>management and team leadership. <br>Strong organizational and
+                    <br>communication skills
+                </p>
                 <a href=""></a>
             </div>
             <div>
@@ -152,7 +172,8 @@
                 <h3>Brian Williams</h3>
                 <p>Social Media <br>Specialist</p>
                 <hr>
-                <p>4+ years of experience in social <br>media marketing. Proficient in <br>creating and scheduling content, <br>analyzing metrics, and building <br>engagement</p>
+                <p>4+ years of experience in social <br>media marketing. Proficient in <br>creating and scheduling
+                    content, <br>analyzing metrics, and building <br>engagement</p>
                 <a href=""></a>
             </div>
             <div>
@@ -160,7 +181,8 @@
                 <h3>Michael Brown</h3>
                 <p>Senior SEO Specialist</p>
                 <hr>
-                <p>5+ years of experience in SEO and <br>content creation. Proficient in <br>keyword research and on-page <br>optimization</p>
+                <p>5+ years of experience in SEO and <br>content creation. Proficient in <br>keyword research and
+                    on-page <br>optimization</p>
                 <a href=""></a>
             </div>
             <div>
@@ -168,7 +190,9 @@
                 <h3>Sarah Kim</h3>
                 <p>Content Creator</p>
                 <hr>
-                <p>2+ years of experience in writing <br>and editing <br>Skilled in creating compelling, SEO- <br>optimized content for various <br>industries</p>
+                <p>2+ years of experience in writing <br>and editing <br>Skilled in creating compelling, SEO-
+                    <br>optimized content for various <br>industries
+                </p>
                 <a href=""></a>
             </div>
             <a href="">See all team</a>
@@ -213,8 +237,8 @@
         </div>
         <hr>
         <!-- tout droit reserver etc... -->
-         <p>© 2023 Positivus. All Rights Reserved.</p>
-         <a href="">Privacy Policy</a>
+        <p>© 2023 Positivus. All Rights Reserved.</p>
+        <a href="">Privacy Policy</a>
     </footer>
 </body>
 
