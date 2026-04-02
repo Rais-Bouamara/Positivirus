@@ -127,6 +127,9 @@ body{
 .gap40{
     gap: 40px;
 }
+.gap80{
+    gap: 80px;
+}
 
 /*classes de couleurs*/
 .bg-vert{
@@ -138,5 +141,8 @@ body{
     background-color: #FFFFFF;
     padding: 5px;
     border-radius: 10px;
+}
+.black{
+    color: #191A23;
 }
 
