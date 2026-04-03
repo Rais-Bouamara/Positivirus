@@ -67,30 +67,38 @@ body{
 }
 
 /*carte et boutton*/
-.card-gris{
-    box-shadow: 5px 5px 10px black;
+.card-gris-big{
     border-radius: 20px;
-    padding: 20px;
+    padding: 60px;
     background-color: #F3F3F3;
+    height: 340px;
+    
+}
+.card-gris{
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #F3F3F3;
+    border: 2px solid black ;
     
 }
 .card-vert{
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px  black;
     border-radius: 20px;
-    padding: 20px;
+    padding: 40px;
     background-color: #B9FF66;
-    
+    border:  2px solid black;
 }
 .card-black{
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px  black;
     border-radius: 20px;
-    padding: 20px;
+    padding: 40px;
     background-color: #191A23;
-    
+    border:  2px solid black;
 }
 .button{
     background-color: rgb(0, 0, 0);
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     padding: 15px 15px;
     display: inline-block;
@@ -99,12 +107,18 @@ body{
 }
 .buttonvert{
     background-color: #B9FF66(0, 0, 0);
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     padding: 15px 15px;
     display: inline-block;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button-header{
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    border: 2px solid black;
 }
 
 
@@ -118,6 +132,9 @@ body{
 }
 
 /*classe d'espace*/
+.mgt40{
+    margin-top: 40px;
+}
 .mgt50{
     margin-top: 50px;
 }
@@ -145,4 +162,26 @@ body{
 .black{
     color: #191A23;
 }
+.txtwhite{
+    color: white;
+}
+.txtblack{
+    color: #000;
+}
 
+/*classe de deplacement*/
+/*pour les 6 cartes*/
+.move-image1{
+    transform: translate(260px,-60px);
+}
+/*pour la grosse carte grise*/
+.move-image2{
+    transform: translate(550px,-220px);
+}
+.move-button-black{
+    transform: translate(0px,-320px);
+}
+/*pour la nav bar et header*/
+.move-nav{
+    transform: translate(180px,20px);
+}
