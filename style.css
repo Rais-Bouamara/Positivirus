@@ -10,6 +10,10 @@ header{
 body{
     font-family: Space Grotesk;
 }
+input{
+    border-radius: 10px;
+    background-color: #292A32;
+}
 /*classe fonctionnel flexbox*/
 /*rendre flexible un parent c rendre flexible ses enfant*/
 .flex{
@@ -33,6 +37,10 @@ body{
     align-items: center;
 }
 
+.txtcenter{
+    text-align: center;
+}
+
 
 .container-1000{
      max-width: 1000px;
@@ -45,9 +53,18 @@ body{
 .w-100{
     width: 100%;
 }
+.w-60{
+    width: 60px;
+}
 
 .w-48{
     width: 48%;
+}
+.w-45{
+    width: 45px;
+}
+.w-40{
+    width: 40px;
 }
 
 .w-50{
@@ -58,6 +75,10 @@ body{
     width: 33%;
 }
 
+.w30{
+    width: 30%;
+}
+
 .w-25{
     width: 25%;
 }
@@ -65,14 +86,22 @@ body{
 .w-16{
     width: 16%;
 }
+.w-1{
+    width: 1px;
+}
 
 /*carte et boutton*/
 .card-gris-big{
     border-radius: 20px;
     padding: 60px;
     background-color: #F3F3F3;
-    height: 340px;
-    
+    height: 340px;  
+}
+.card-black-big{
+    background-color: #191A23;
+    border-radius: 20px;
+    padding: 60px;
+    height: 300px;
 }
 .card-gris{
     box-shadow: 5px 5px black;
@@ -96,6 +125,12 @@ body{
     background-color: #191A23;
     border:  2px solid black;
 }
+.card-white{
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
+    padding: 40px;
+    border: 2px solid black;
+}
 .button{
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
@@ -103,7 +138,16 @@ body{
     padding: 15px 15px;
     display: inline-block;
     color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.button2{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    padding: 15px 70px;
+    display: inline-block;
+    color: whitesmoke;
+    
 }
 .buttonvert{
     background-color: #B9FF66(0, 0, 0);
@@ -132,14 +176,23 @@ body{
 }
 
 /*classe d'espace*/
+.mgt20{
+    margin-top: 20px;
+}
 .mgt40{
     margin-top: 40px;
 }
 .mgt50{
     margin-top: 50px;
 }
+.mgt60{
+    margin-top: 60px;
+}
 .mgt100{
     margin-top: 100px;
+}
+.mgt200{
+    margin-top: 200px;
 }
 .gap40{
     gap: 40px;
@@ -154,10 +207,25 @@ body{
     padding: 5px;
     border-radius: 10px;
 }
+.bg-vert2{
+    background-color: #B9FF66;
+    padding: 20px 60px 20px 60px;
+    border-radius: 10px;
+}
+.bg-black{
+    background-color: #191A23;
+    padding: 40px;
+    border-radius: 10px 10px 0px 0px;
+    height: 500px;
+}
+.bg-input{
+    background-color: #292A32;
+    padding: 70px 20px;
+    border-radius: 10px;
+}
 .bg-blanc{
     background-color: #FFFFFF;
-    padding: 5px;
-    border-radius: 10px;
+    
 }
 .black{
     color: #191A23;
@@ -168,6 +236,11 @@ body{
 .txtblack{
     color: #000;
 }
+.txtvert{
+    color: #B9FF66;
+}
+
+
 
 /*classe de deplacement*/
 /*pour les 6 cartes*/
@@ -181,7 +254,10 @@ body{
 .move-button-black{
     transform: translate(0px,-320px);
 }
+.move-button-black2{
+    transform: translate(1030px,0px);
+}
 /*pour la nav bar et header*/
 .move-nav{
-    transform: translate(180px,20px);
+    transform: translate(110px,20px);
 }
