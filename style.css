@@ -42,10 +42,9 @@ input{
 }
 
 
-.container-1000{
-     max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+.container1000{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /*classes de dimenssions*/
@@ -63,8 +62,14 @@ input{
 .w-45{
     width: 45px;
 }
+.w45{
+    width: 45%;
+}
 .w-40{
     width: 40px;
+}
+.w40{
+    width: 40%;
 }
 
 .w-50{
@@ -78,8 +83,11 @@ input{
 .w30{
     width: 30%;
 }
+.w28{
+    width: 28%;
+}
 
-.w-25{
+.w25{
     width: 25%;
 }
 
@@ -194,17 +202,23 @@ input{
 .mgt200{
     margin-top: 200px;
 }
+.gap20{
+    gap: 20px;
+}
 .gap40{
     gap: 40px;
 }
 .gap80{
     gap: 80px;
 }
+.box20{
+  margin-right: 20px;
+}
 
 /*classes de couleurs*/
 .bg-vert{
     background-color: #B9FF66;
-    padding: 5px;
+    padding: 5px 5px 5px 5px;
     border-radius: 10px;
 }
 .bg-vert2{
@@ -216,7 +230,7 @@ input{
     background-color: #191A23;
     padding: 40px;
     border-radius: 10px 10px 0px 0px;
-    height: 500px;
+    height: 600px;
 }
 .bg-input{
     background-color: #292A32;
@@ -225,6 +239,8 @@ input{
 }
 .bg-blanc{
     background-color: #FFFFFF;
+    border-radius: 10px;
+    
     
 }
 .black{
@@ -245,7 +261,7 @@ input{
 /*classe de deplacement*/
 /*pour les 6 cartes*/
 .move-image1{
-    transform: translate(260px,-60px);
+    transform: translate(170px,-40px);
 }
 /*pour la grosse carte grise*/
 .move-image2{
@@ -260,4 +276,26 @@ input{
 /*pour la nav bar et header*/
 .move-nav{
     transform: translate(110px,20px);
+}
+/*pour le logo linkedin vert*/
+.move-linkedin-jhon{
+    transform: translate(222px,-247px);
+}
+.move-linkedin-jane{
+    transform: translate(237px, -275px);
+}
+.move-linkedin-michael{
+    transform: translate(231px,-273px);
+}
+.move-linkedin-emily{
+    transform: translate(206px,-275px);
+}
+.move-linkedin-brian{
+    transform: translate(234px,-314px);
+}
+.move-linkedin-sarah{
+    transform: translate(245px,-293px);
+}
+.move-fleche-verte{
+    transform: translate(17px,3px);
 }
