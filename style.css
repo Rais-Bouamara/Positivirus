@@ -272,30 +272,30 @@ input{
     transform: translate(0px,-320px);
 }
 .move-button-black2{
-    transform: translate(1030px,0px);
+    transform: translate(770px,0px);
 }
 /*pour la nav bar et header*/
 .move-nav{
-    transform: translate(110px,20px);
+    transform: translate(28px,20px);
 }
 /*pour le logo linkedin vert*/
 .move-linkedin-jhon{
-    transform: translate(222px,-247px);
+    transform: translate(222px,-298px);
 }
 .move-linkedin-jane{
-    transform: translate(237px, -275px);
+    transform: translate(222px, -317px);
 }
 .move-linkedin-michael{
-    transform: translate(231px,-273px);
+    transform: translate(222px,-297px);
 }
 .move-linkedin-emily{
-    transform: translate(206px,-275px);
+    transform: translate(217px,-273px);
 }
 .move-linkedin-brian{
-    transform: translate(234px,-314px);
+    transform: translate(217px,-337px);
 }
 .move-linkedin-sarah{
-    transform: translate(245px,-293px);
+    transform: translate(218px,-338px);
 }
 .move-fleche-verte{
     transform: translate(17px,3px);
