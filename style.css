@@ -42,7 +42,7 @@ input{
 }
 
 
-.container1000{
+.container-1000{
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -239,9 +239,7 @@ input{
 }
 .bg-blanc{
     background-color: #FFFFFF;
-    border-radius: 10px;
-    
-    
+    border-radius: 10px;   
 }
 .black{
     color: #191A23;
@@ -255,17 +253,20 @@ input{
 .txtvert{
     color: #B9FF66;
 }
+.black-white{
+    filter: grayscale(1);
+}
 
 
 
 /*classe de deplacement*/
 /*pour les 6 cartes*/
 .move-image1{
-    transform: translate(170px,-40px);
+    transform: translate(50px,-40px);
 }
 /*pour la grosse carte grise*/
 .move-image2{
-    transform: translate(550px,-220px);
+    transform: translate(300px,-220px);
 }
 .move-button-black{
     transform: translate(0px,-320px);
